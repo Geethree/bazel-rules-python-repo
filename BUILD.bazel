@@ -1,3 +1,14 @@
 # gazelle:python_extension disabled
 
-exports_files(["gazelle_python.yaml"])
+exports_files([
+    "gazelle_python.yaml",
+    ".ruff.toml"
+])
+
+# NB: this alias does NOT cause Bazel's Loading phase to load the tools/BUILD file.
+# That's important as we don't want users to wait for "Eager fetching" for ~EVERY language which
+# that build file loads from.
+alias(
+    name = "format",
+    actual = "//tools:format",
+)
