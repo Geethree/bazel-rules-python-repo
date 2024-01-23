@@ -1,7 +1,7 @@
 # GENERATED FILE - DO NOT EDIT!
 #
 # To update this file, run:
-#   bazel run //:gazelle_python.update
+#   bazel run //third_party/python:gazelle_python.update
 
 manifest:
   modules_mapping:
@@ -110,4 +110,4 @@ manifest:
     urllib3.util.wait: urllib3
   pip_repository:
     name: pip
-integrity: 1a036254dc19f60542245533a133efcb2e746681250bed00996132e01d1e862b
+integrity: 2ed46368a584641d179fe084550077fe25175779850232a70600f6c77a98749b
