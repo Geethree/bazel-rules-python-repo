@@ -2,7 +2,7 @@
 
 exports_files([
     "gazelle_python.yaml",
-    ".ruff.toml"
+    ".ruff.toml",
 ])
 
 # NB: this alias does NOT cause Bazel's Loading phase to load the tools/BUILD file.

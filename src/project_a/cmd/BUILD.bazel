@@ -5,6 +5,6 @@ py_binary(
     srcs = ["__main__.py"],
     imports = [".."],
     main = "__main__.py",
-    visibility = ["//src/python:__subpackages__"],
-    deps = ["//src/python/libs"],
+    visibility = ["//src/project_a:__subpackages__"],
+    deps = ["//src/project_a/libs"],
 )

@@ -1,0 +1,29 @@
+# gazelle:default_visibility //src/project_a:__subpackages__
+# gazelle:python_extension enabled
+# gazelle:python_root
+
+load("@pip//:requirements.bzl", "all_requirements", "all_whl_requirements")
+load("@rules_python//python:pip.bzl", "compile_pip_requirements")
+load("@rules_python_gazelle_plugin//manifest:defs.bzl", "gazelle_python_manifest")
+load("@rules_python_gazelle_plugin//modules_mapping:def.bzl", "modules_mapping")
+
+compile_pip_requirements(
+    name = "requirements",
+    requirements_in = ":requirements.in",
+    requirements_txt = ":requirements.txt",
+    tags = ["compile"],
+)
+
+modules_mapping(
+    name = "modules_map",
+    wheels = all_whl_requirements,
+)
+
+gazelle_python_manifest(
+    name = "gazelle_python",
+    modules_mapping = ":modules_map",
+    pip_repository_name = "pip",
+    requirements = [
+        ":requirements.txt",
+    ],
+)

@@ -1,33 +1,10 @@
 # GENERATED FILE - DO NOT EDIT!
 #
 # To update this file, run:
-#   bazel run //third_party/python:gazelle_python.update
+#   bazel run //src/project_b:gazelle_python.update
 
 manifest:
   modules_mapping:
-    S3: s3cmd
-    S3.ACL: s3cmd
-    S3.AccessLog: s3cmd
-    S3.BaseUtils: s3cmd
-    S3.BidirMap: s3cmd
-    S3.CloudFront: s3cmd
-    S3.Config: s3cmd
-    S3.ConnMan: s3cmd
-    S3.Crypto: s3cmd
-    S3.Custom_httplib27: s3cmd
-    S3.Custom_httplib3x: s3cmd
-    S3.Exceptions: s3cmd
-    S3.ExitCodes: s3cmd
-    S3.FileDict: s3cmd
-    S3.FileLists: s3cmd
-    S3.HashCache: s3cmd
-    S3.MultiPart: s3cmd
-    S3.PkgInfo: s3cmd
-    S3.Progress: s3cmd
-    S3.S3: s3cmd
-    S3.S3Uri: s3cmd
-    S3.SortedDict: s3cmd
-    S3.Utils: s3cmd
     certifi: certifi
     certifi.core: certifi
     charset_normalizer: charset_normalizer
@@ -41,19 +18,6 @@ manifest:
     charset_normalizer.models: charset_normalizer
     charset_normalizer.utils: charset_normalizer
     charset_normalizer.version: charset_normalizer
-    dateutil: python_dateutil
-    dateutil.easter: python_dateutil
-    dateutil.parser: python_dateutil
-    dateutil.parser.isoparser: python_dateutil
-    dateutil.relativedelta: python_dateutil
-    dateutil.rrule: python_dateutil
-    dateutil.tz: python_dateutil
-    dateutil.tz.tz: python_dateutil
-    dateutil.tz.win: python_dateutil
-    dateutil.tzwin: python_dateutil
-    dateutil.utils: python_dateutil
-    dateutil.zoneinfo: python_dateutil
-    dateutil.zoneinfo.rebuild: python_dateutil
     idna: idna
     idna.codec: idna
     idna.compat: idna
@@ -62,9 +26,6 @@ manifest:
     idna.intranges: idna
     idna.package_data: idna
     idna.uts46data: idna
-    magic: python_magic
-    magic.compat: python_magic
-    magic.loader: python_magic
     requests: requests
     requests.adapters: requests
     requests.api: requests
@@ -81,9 +42,6 @@ manifest:
     requests.status_codes: requests
     requests.structures: requests
     requests.utils: requests
-    six: six
-    tabulate: tabulate
-    tabulate.version: tabulate
     urllib3: urllib3
     urllib3.connection: urllib3
     urllib3.connectionpool: urllib3
@@ -109,5 +67,5 @@ manifest:
     urllib3.util.util: urllib3
     urllib3.util.wait: urllib3
   pip_repository:
-    name: pip
-integrity: 2ed46368a584641d179fe084550077fe25175779850232a70600f6c77a98749b
+    name: pip_b
+integrity: cb5724beffbaf0acec98e0131a5226655f915b244e76eef60775f7ff9bfa7c6f

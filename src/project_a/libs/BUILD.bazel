@@ -7,7 +7,7 @@ py_library(
         "lib.py",
     ],
     imports = [".."],
-    visibility = ["//src/python:__subpackages__"],
+    visibility = ["//src:__subpackages__"],
     deps = ["@pip//tabulate"],
 )
 

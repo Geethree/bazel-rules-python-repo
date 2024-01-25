@@ -1,3 +1,0 @@
-# Enable python src relative to this directory.
-# gazelle:python_extension enabled
-# gazelle:python_root
