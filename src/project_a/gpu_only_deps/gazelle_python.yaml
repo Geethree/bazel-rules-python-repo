@@ -1,0 +1,71 @@
+# GENERATED FILE - DO NOT EDIT!
+#
+# To update this file, run:
+#   bazel run //src/project_a/gpu_only_deps:gazelle_python.update
+
+manifest:
+  modules_mapping:
+    certifi: certifi
+    certifi.core: certifi
+    charset_normalizer: charset_normalizer
+    charset_normalizer.api: charset_normalizer
+    charset_normalizer.cd: charset_normalizer
+    charset_normalizer.cli: charset_normalizer
+    charset_normalizer.constant: charset_normalizer
+    charset_normalizer.legacy: charset_normalizer
+    charset_normalizer.md: charset_normalizer
+    charset_normalizer.md__mypyc: charset_normalizer
+    charset_normalizer.models: charset_normalizer
+    charset_normalizer.utils: charset_normalizer
+    charset_normalizer.version: charset_normalizer
+    idna: idna
+    idna.codec: idna
+    idna.compat: idna
+    idna.core: idna
+    idna.idnadata: idna
+    idna.intranges: idna
+    idna.package_data: idna
+    idna.uts46data: idna
+    requests: requests
+    requests.adapters: requests
+    requests.api: requests
+    requests.auth: requests
+    requests.certs: requests
+    requests.compat: requests
+    requests.cookies: requests
+    requests.exceptions: requests
+    requests.help: requests
+    requests.hooks: requests
+    requests.models: requests
+    requests.packages: requests
+    requests.sessions: requests
+    requests.status_codes: requests
+    requests.structures: requests
+    requests.utils: requests
+    urllib3: urllib3
+    urllib3.connection: urllib3
+    urllib3.connectionpool: urllib3
+    urllib3.contrib: urllib3
+    urllib3.contrib.pyopenssl: urllib3
+    urllib3.contrib.socks: urllib3
+    urllib3.exceptions: urllib3
+    urllib3.fields: urllib3
+    urllib3.filepost: urllib3
+    urllib3.poolmanager: urllib3
+    urllib3.response: urllib3
+    urllib3.util: urllib3
+    urllib3.util.connection: urllib3
+    urllib3.util.proxy: urllib3
+    urllib3.util.request: urllib3
+    urllib3.util.response: urllib3
+    urllib3.util.retry: urllib3
+    urllib3.util.ssl_: urllib3
+    urllib3.util.ssl_match_hostname: urllib3
+    urllib3.util.ssltransport: urllib3
+    urllib3.util.timeout: urllib3
+    urllib3.util.url: urllib3
+    urllib3.util.util: urllib3
+    urllib3.util.wait: urllib3
+  pip_repository:
+    name: pip_gpu
+integrity: d1c290cc05b92f25c5bce565fe771ffecef02cc009a6d4c19ad97510088e7c98

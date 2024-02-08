@@ -1,0 +1,12 @@
+# GENERATED FILE - DO NOT EDIT!
+#
+# To update this file, run:
+#   bazel run //src/project_a:gazelle_python.update
+
+manifest:
+  modules_mapping:
+    tabulate: tabulate
+    tabulate.version: tabulate
+  pip_repository:
+    name: pip_common
+integrity: 52ef005f79459826eb26ed7beaa3e9f738ad7b164f18228ed572f8127b2d4458

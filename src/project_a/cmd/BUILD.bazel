@@ -1,0 +1,10 @@
+load("@rules_python//python:defs.bzl", "py_binary")
+
+py_binary(
+    name = "cmd_bin",
+    srcs = ["__main__.py"],
+    imports = [".."],
+    main = "__main__.py",
+    visibility = ["//src/project_a:__subpackages__"],
+    deps = ["//src/project_a/libs"],
+)

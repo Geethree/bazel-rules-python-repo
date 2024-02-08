@@ -24,13 +24,13 @@ python.toolchain(
     python_version = PYTHON_VERSION,
 )
 
-# Use the extension, pip.parse, to call the `pip_repository` rule that invokes
-# `pip`, with `incremental` set. The pip call accepts a locked/compiled
-# requirements file and installs the dependencies listed within.
-# Those dependencies become available in a generated `requirements.bzl` file.
-# You can instead check this `requirements.bzl` file into your repo.
-# Because this project has different requirements for windows vs other
-# operating systems, we have requirements for each.
+# # Use the extension, pip.parse, to call the `pip_repository` rule that invokes
+# # `pip`, with `incremental` set. The pip call accepts a locked/compiled
+# # requirements file and installs the dependencies listed within.
+# # Those dependencies become available in a generated `requirements.bzl` file.
+# # You can instead check this `requirements.bzl` file into your repo.
+# # Because this project has different requirements for windows vs other
+# # operating systems, we have requirements for each.
 pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
 pip.parse(
     # The interpreter_target attribute points to the interpreter to
